@@ -15,11 +15,11 @@ public class Horse extends Mammal{
 	
 	public Horse(){
 		super(3, 0.1);
-		nrOfLegs = 4;
-		name = "Horse";
-		normalBodytemp = 38;
-		percBodyHair = 90; 
-		isRaceHorse = true;
+		this.setNrOfLegs(4);
+		this.setName("Horse");
+		this.setNormalBodytemp(37);
+		this.setPercBodyHair(92); 
+		this.setRaceHorse(true);
 	}
 	
 	public Horse(boolean isRaceHorse, float normalBodytemp, float percBodyHair){

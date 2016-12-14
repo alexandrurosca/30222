@@ -15,9 +15,9 @@ public class Somon extends Aquatic{
 	
 	public Somon (){
 		super(1, 0);
-		nrOfLegs = 0;
-		name = "Somon";
-		avgSwimDepth = 2;
+		this.setName("Somon");
+		this.setNrOfLegs(0);
+		this.setAvgSwimDepth(6);
 	}
 	
 	

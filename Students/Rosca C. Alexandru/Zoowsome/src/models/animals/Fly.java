@@ -15,10 +15,10 @@ public class Fly extends Insect{
 	
 	public Fly(){
 	  	super(0.1, 0);
-		nrOfLegs = 6;
-		name = "Fly";
-		isDangerous = false;
-		canFly = true;
+		this.setNrOfLegs(6);
+		this.setName("Fly");
+		this.setDangerous(false);
+		this.setCanFly(true);
 		setLifeTime(2);
 	}
 	

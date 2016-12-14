@@ -3,6 +3,7 @@ package controllers;
 import models.animals.Animal;
 import models.employees.*;
 import repositories.AnimalRepository;
+import repositories.EntityRepository;
 
 import java.io.IOException;
 import java.util.*;
@@ -25,6 +26,7 @@ public class MainController {
 		ArrayList<Animal> animals = new ArrayList<Animal>();
 		ArrayList<Animal> animalsLoad = new ArrayList<Animal>();
 		AnimalRepository animalRep = new AnimalRepository();
+		EntityRepository<Animal> enitityRep = new AnimalRepository();
 		
 		
 		CaretakerFactory caretakerFactory = new CaretakerFactory();
@@ -150,6 +152,13 @@ public class MainController {
 		}
 		
 		animalRep.save(animals);
+		try{
+			enitityRep.load();
+		}
+		catch(Exception e){
+			System.out.println("Nu s-a putut executa functia load!");
+		}
+		
 		
 		
 		for(int i = 0; i < Constants.noOfAnimals; i++){

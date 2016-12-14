@@ -15,10 +15,10 @@ public class Crow extends Bird{
 	
 	public Crow(){
 		super(2,0.01);
-		nrOfLegs = 2;
-		name = "Crow";
-		avgFlightAltitude = 20;
-		migrate = false;
+		this.setNrOfLegs(4);
+		this.setName("Crow");
+		this.setAvgFlightAltitude(20);
+		this.setMigrate(false);
 		setWeight(4);
 	}
 	

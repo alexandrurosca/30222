@@ -19,10 +19,10 @@ public class Snake extends Reptile{
 	
 	public Snake(){
 		super(3, 0.3);
-		nrOfLegs = 0;
-		name = "Snake";
-		laysEggs = true;
-		isPoisonous = true;
+		this.setName("Snake");
+		this.setNrOfLegs(0);
+		this.setLaysEggs(true);
+		this.setPoisonous(true);
 	}
 
 	

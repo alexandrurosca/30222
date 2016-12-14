@@ -15,10 +15,10 @@ public class Cow extends Mammal{
 	
 	public Cow(){
 		super(4,0.01);
-		nrOfLegs = 4;
-		name = "Cow";
-		normalBodytemp = 35;
-		percBodyHair = 95; 
+		this.setNrOfLegs(4);
+		setName("Cow");
+		this.setNormalBodytemp(35);
+		this.setPercBodyHair(90);
 		setLitersOfMilk(2);
 	}
 	

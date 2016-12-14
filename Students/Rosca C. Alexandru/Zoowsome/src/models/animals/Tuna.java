@@ -15,9 +15,10 @@ public class Tuna extends Aquatic{
 	
 	public Tuna(){
 		super(0.3, 0.1);
-		nrOfLegs = 0;
-		name = "Tuna";
-		avgSwimDepth = 100;
+		this.setName("Tuna");
+		this.setNrOfLegs(0);
+		
+		this.setAvgSwimDepth(20);
 		setLenght(2);
 	}
 	

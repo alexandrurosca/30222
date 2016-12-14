@@ -15,10 +15,10 @@ public class Lizzard extends Reptile{
 	
 	public Lizzard(){
 		super(0.3, 0.15);
-		nrOfLegs = 4;
-		name = "Lizzard";
-		laysEggs =true;
-		color = 250; 
+		this.setName("Lizzard");
+		this.setNrOfLegs(4);
+		this.setLaysEggs(true);
+		this.setColor(140);
 	}
 	
 	

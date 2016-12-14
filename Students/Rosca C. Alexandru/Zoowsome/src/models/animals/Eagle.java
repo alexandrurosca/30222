@@ -16,10 +16,10 @@ public class Eagle extends Bird{
 	
 	public Eagle (){
 		super(4, 0.3);
-		nrOfLegs = 2;
-		name = "Eagle";
-		migrate = true;
-		avgFlightAltitude = 1000; 
+		this.setNrOfLegs(2);
+		this.setName("Eagle");
+		this.setMigrate(true);
+		this.setAvgFlightAltitude(1000);
 		setWingSpred(3);
 	}
 	

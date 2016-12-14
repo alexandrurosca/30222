@@ -15,11 +15,11 @@ public class Ant extends Insect{
 	
 	
 	public Ant(){
-		super(0.5, 0.2);
-		nrOfLegs = 10;
-		name = "Ant";
-		isDangerous = true;
-		canFly = false;
+		super(0.5 , 0.2);
+		this.setNrOfLegs(10);
+		this.setName("Ant");
+		this.setCanFly(false);
+		this.setDangerous(true);
 		setLvlPainBite(5);
 		
 	}

@@ -15,10 +15,10 @@ public class Woodpecker extends Bird{
 	
 	public Woodpecker(){
 		super(1, 0.1);
-		nrOfLegs = 4;
-		name = "Wookpecker";
-		avgFlightAltitude = 10;
-		migrate = false;
+		this.setName("Woodpecker");
+		this.setNrOfLegs(2);
+		this.setAvgFlightAltitude(20);
+		this.setMigrate(true);
 		setNoOfEggs(4);
 	}
 	

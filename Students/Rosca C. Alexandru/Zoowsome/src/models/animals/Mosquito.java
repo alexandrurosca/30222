@@ -15,10 +15,10 @@ public class Mosquito extends Insect{
 	
 	public Mosquito(){
 		super(0.1, 0.1);
-		nrOfLegs = 8;
-		name = "Mosquito";
-		isDangerous = false;
-		canFly = true;
+		this.setNrOfLegs(10);
+		this.setName("Mosquito");
+		this.setDangerous(true);
+		this.setCanFly(true);
 		setCanCarryVirus(false);
 	}
 	

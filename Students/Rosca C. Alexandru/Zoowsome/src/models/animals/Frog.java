@@ -15,9 +15,9 @@ public class Frog extends Aquatic{
 	
 	public Frog(){
 		super(2 , 0.1);
-		nrOfLegs = 4;
-		name = "Frog";
-		avgSwimDepth = 1;
+		this.setNrOfLegs(4);
+		this.setName("Frog");
+		this.setAvgSwimDepth(1);
 		setPoisonous(false);
 	}
 	

@@ -15,10 +15,10 @@ public class Crocodile extends Reptile{
 	
 	public Crocodile(){
 		super(5, 0.3);
-		nrOfLegs = 4;
-		name = "Crocodile";
-		laysEggs = true;
-		length = 4;
+		this.setNrOfLegs(4);
+		this.setName("Crocodile");
+		this.setLaysEggs(true);
+		this.setLength(5);
 	}
 	
 	

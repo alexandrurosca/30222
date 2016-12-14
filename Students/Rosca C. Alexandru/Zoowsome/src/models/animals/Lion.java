@@ -16,11 +16,11 @@ public class Lion extends Mammal{
 	
 	public Lion(){
 		super(6, 0.6);
-		nrOfLegs = 4;
-		name = "Lion";
-		normalBodytemp = 37;
-		percBodyHair = 100; 
-		weight = 70;
+		this.setName("Lion");
+		this.setNrOfLegs(4);
+		this.setNormalBodytemp(38);
+		this.setPercBodyHair(90);
+		this.setWeight(70);
 	}
 	
 	
