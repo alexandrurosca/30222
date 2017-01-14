@@ -12,6 +12,14 @@ public final class Constants {
 	public static final int startHourDanger = 9;
 	public static final int endHourDanger = 22;
 	public static final double percDeng = 0.2;
+	
+	public static final class FRAMES{
+		
+		public static final int HEIGHT = 500;
+		public static final int WIDTH = 700;
+	}
+	
+	
 
 	public static final class XML_TAGS{
 		public static final String ANIMAL = "Animal";
