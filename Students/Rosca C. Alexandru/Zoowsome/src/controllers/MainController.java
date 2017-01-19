@@ -26,6 +26,7 @@ public class MainController {
 		ArrayList<Animal> animals = new ArrayList<Animal>();
 		ArrayList<Animal> animalsLoad = new ArrayList<Animal>();
 		AnimalRepository animalRep = new AnimalRepository();
+		//AnimalRepository animalRep2 = new AnimalRepository();
 		EntityRepository<Animal> enitityRep = new AnimalRepository();
 		
 		
@@ -154,9 +155,11 @@ public class MainController {
 		animalRep.save(animals);
 		try{
 			enitityRep.load();
+			
 		}
 		catch(Exception e){
-			System.out.println("Nu s-a putut executa functia load!");
+			System.out.println(e.getStackTrace());
+			
 		}
 		
 		

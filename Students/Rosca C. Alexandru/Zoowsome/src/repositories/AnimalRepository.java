@@ -30,16 +30,17 @@ public class AnimalRepository extends EntityRepository<Animal>{
 		String discriminant = ((Document) element).getElementsByTagName(Constants.XML_TAGS.DISCRIMINANT).item(0).getTextContent();
 		
 		switch(discriminant){
-			case Constants.Animals.Insects.ANT:
+			case Constants.Animals.Insects.ANT:{
 				Animal ant  = new Ant();
 				ant.decodeFromXml(element);
 				return ant;
+			}
+				
 			
 			case Constants.Animals.Insects.MOSQUITO:  	 	 	 	 	
 	 	 		Animal mosquito = new Mosquito();  	 	 	 	 
 	 	 		mosquito.decodeFromXml(element);  	 	 	 	 	
 	 	 		return mosquito;
-	 	 		
 	 	 		
 	 	 	case Constants.Animals.Insects.FLY:  	 	 	 	 	
 	 	 		Animal fly = new Fly();  	 	 	 	 
